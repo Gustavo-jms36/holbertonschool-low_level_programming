@@ -6,14 +6,20 @@
 
 int main(void)
 {
-	int letter = 65;
+	char letterMin = 'a';
+	char letterMayus = 'A'
 
 	while
-		(letter <= 124);
+		(letterMin <= 'z');
 	{
-		putchar(letter);
-		putchar('\n');
-		(letter++);
+		putchar(letterMin);
+		(letterMin++);
+	} while
+		(letterMayus <= 'Z');
+	{
+		putchar(letterMayus);
+		(letterMayus++);
 	}
+	putchar('\n');
 	return (0);
 }
